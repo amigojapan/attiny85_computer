@@ -309,7 +309,7 @@ void guess_my_number() {
        flashLEDs();
        flashLEDs();
      }
-     if(byteB>byteA) {//too low
+     if(byteB<byteA) {//too low
        flashLEDs();
        flashLEDs();
        flashLEDs();
